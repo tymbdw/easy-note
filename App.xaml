@@ -1,0 +1,11 @@
+<Application x:Class="DesktopNote.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             ShutdownMode="OnExplicitShutdown">
+    <Application.Resources>
+        <!-- 与「词隙」同源的雾银玻璃配色 -->
+        <SolidColorBrush x:Key="TextPrimary" Color="#FF182633"/>
+        <SolidColorBrush x:Key="TextSecondary" Color="#FF5B7185"/>
+        <SolidColorBrush x:Key="Accent" Color="#FF2899D6"/>
+    </Application.Resources>
+</Application>

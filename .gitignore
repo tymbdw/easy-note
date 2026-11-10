@@ -1,0 +1,17 @@
+# Build output
+bin/
+obj/
+build/
+*.user
+
+# 开发时抓的截图（仓库里只保留 docs/screenshot.png）
+shots/
+!docs/screenshot.png
+
+# 本地运行时数据（笔记、诊断日志）
+notes.json
+*.log
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
